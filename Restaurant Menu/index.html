@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Restaurant Menu</title>
+    <!-- Linking external CSS styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Favorite Restaurant Menu</h1>
+    </header>
+
+    <!-- Category Filter Controls -->
+    <div class="filter-container">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="breakfast">Breakfast</button>
+        <button class="filter-btn" data-category="starters">Starters</button>
+        <button class="filter-btn" data-category="mains">Mains</button>
+        <button class="filter-btn" data-category="desserts">Desserts</button>
+    </div>
+
+    <!-- Interactive Menu Items -->
+    <main class="menu-grid" id="menu-grid">
+        <!-- Breakfast -->
+        <article class="menu-item" data-category="breakfast">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Boiled Eggs with Feta</h2>
+                    <span class="menu-item-price">$4.00</span>
+                </div>
+                <p class="menu-item-description">Perfectly boiled eggs served over a bed of creamy, rich feta cheese, drizzled with olive oil and a pinch of cumin.</p>
+            </div>
+        </article>
+
+
+        <!-- Starters -->
+        <article class="menu-item" data-category="starters">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Truffle Garlic Bread</h2>
+                    <span class="menu-item-price">$8.50</span>
+                </div>
+                <p class="menu-item-description">Toasted artisan sourdough brushed with white truffle oil, roasted garlic, and melted mozzarella.</p>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="starters">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Crispy Calamari</h2>
+                    <span class="menu-item-price">$12.00</span>
+                </div>
+                <p class="menu-item-description">Lightly dusted pepper calamari served with a side of zesty house-made garlic aioli.</p>
+            </div>
+        </article>
+
+        <!-- Mains -->
+        <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Classic Margherita Pizza</h2>
+                    <span class="menu-item-price">$14.99</span>
+                </div>
+                <p class="menu-item-description">Fresh San Marzano tomato sauce, buffalo mozzarella, extra virgin olive oil, and organic basil leaf.</p>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Fettuccine Alfredo</h2>
+                    <span class="menu-item-price">$18.50</span>
+                </div>
+                <p class="menu-item-description">Rich parmesan and butter cream sauce tossed with freshly made egg fettuccine pasta.</p>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Gourmet Beef Burger</h2>
+                    <span class="menu-item-price">$15.50</span>
+                </div>
+                <p class="menu-item-description">Premium flame-grilled beef patty with cheddar cheese, fresh lettuce, tomato, and house special sauce in a brioche bun.</p>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Creamy Chicken Pasta</h2>
+                    <span class="menu-item-price">$16.99</span>
+                </div>
+                <p class="menu-item-description">Delicious pasta cooked in a rich, savory white sauce with grilled chicken breast medallions, mushrooms, and herbs.</p>
+            </div>
+        </article>
+
+        <!-- Desserts -->
+
+        <article class="menu-item" data-category="desserts">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Egyptian Rice Pudding</h2>
+                    <span class="menu-item-price">$4.50</span>
+                </div>
+                <p class="menu-item-description">Creamy, traditional Egyptian rice pudding infused with a hint of rosewater, topped with crushed pistachios and raisins.</p>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="desserts">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Lava Chocolate Cake</h2>
+                    <span class="menu-item-price">$7.99</span>
+                </div>
+                <p class="menu-item-description">Warm, decadent chocolate cake with a liquid fudge center, served with a scoop of vanilla bean ice cream.</p>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="desserts">
+            <div class="menu-item-info">
+                <div class="menu-item-header">
+                    <h2 class="menu-item-title">Basbousa</h2>
+                    <span class="menu-item-price">$5.00</span>
+                </div>
+                <p class="menu-item-description">Sweet and soft semolina cake soaked in sweet syrup, decorated with a whole almond on top.</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Linking external JavaScript logic -->
+    <script src="script.js"></script>
+</body>
+</html>
